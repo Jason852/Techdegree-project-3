@@ -71,6 +71,10 @@ select {
   height: auto;
 }
 
+#zipcode {
+  width: 60%;
+}
+
 .contact-info label,
 .newsletter label,
 .footer {

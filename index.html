@@ -24,11 +24,11 @@
             <label for="email"> Email Address</label><br>
             <input required type="email" id="email" name="email" placeholder="Required"><br>
             <label for="phone">Phone Number</label><br>
-            <input type="tel" id="phone" name="phone_number" placeholder=""><br>
+            <input type="tel" id="phone" name="phone_number" placeholder="Enter your phone here"><br>
             <label for="address">Street Address</label><br>
-            <input type="text" id="address" name="street_add" placeholder=""><br>
+            <input type="text" id="address" name="street_add" placeholder="Enter your address here"><br>
             <label for="city">City</label><br>
-            <input type="text" id="city" name="city" placeholder=""><br>
+            <input type="text" id="city" name="city" placeholder="Enter your city here"><br>
             <label for="state">State</label><br>
             <select id="state" name="state" placeholder="Choose State">
               <option value=""disabled selected>Choose State</option>
@@ -85,12 +85,12 @@
             	<option value="WY">Wyoming</option>
             </select><br>
             <label for="zipcode">Zip code</label><br>
-            <input type="text" id="zipcode" name="zipcode"><br>
+            <input type="text" id="zipcode" name="zipcode" placeholder="Enter your zip here"><br>
           </fieldset>
         </div>
 
         <div class="newsletter">
-          <legend>Newsletter</legend>
+          <h2>Newsletter</h2>
           <fieldset>
             <label>Select the newsletters you would like to receive</label><br>
             <input type="checkbox" id="html_news" name="check_news" value="html_news">
@@ -112,10 +112,11 @@
             <textarea id="topic_text"name="topic" rows="8"></textarea>
           </fieldset>
         </div>
-
-        <div class="submit_button">
-            <button type="submit">Sign Up</button>
-        </div>
+        <fieldset>
+          <div class="submit_button">
+              <button type="submit">Sign Up</button>
+          </div>
+        </fieldset>
       </form>
 
     </main>
