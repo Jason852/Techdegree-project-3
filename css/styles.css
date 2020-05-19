@@ -1,0 +1,100 @@
+
+/* Base Styles ------ */
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: .88em;
+  width: 100%;
+  padding-top: .9em;
+  padding-bottom: .9em;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+legend {
+  font-family: 'Source Serif Pro', serif;
+}
+
+header,
+.banner,
+.signup_button,
+.footer {
+  text-align: center;
+}
+
+.banner p,
+label,
+.footer {
+  font-family: 'Merriweather', serif;
+  font-size: .8em;
+}
+
+main,
+.banner {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.banner {
+  border-bottom: 5px double black;
+}
+
+.banner p{
+  color: #99a6b2;
+}
+
+fieldset {
+  border: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  height: auto;
+}
+
+.contact-info label,
+.newsletter label,
+.footer {
+  line-height: 2.5;
+  color: #99a6b2;
+}
+
+.contact-info {
+  margin-bottom: 18px;
+}
+
+.newsletter {
+  border-top: 2px solid black;
+  margin-top: 10px
+}
+
+textarea {
+  width: 100%;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+button {
+  width: 100%;
+  height: 20px;
+  background-color: #2eb8b8;
+}
