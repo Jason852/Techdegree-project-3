@@ -19,7 +19,8 @@ h1 {
   font-size: 1.5em;
 }
 
-h2 {
+h2,
+legend {
   font-size: 1.2rem
 }
 
@@ -68,20 +69,24 @@ input[type="email"],
 input[type="tel"],
 select {
   width: 100%;
-  height: 52px;
+  height: 50px;
   background-color: #f2f2f2;
   border: none;
   border-radius: 5px;
-  padding: 15px;
+  padding: 5px;
+  font-size: .9em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  background-color: white;
 }
 
 input::placeholder {
   text-align: right;
   font-style: italic;
-}
-
-#zipcode {
-  width: 60%;
+  padding-right: 10px;
 }
 
 .contact-info label,
@@ -89,19 +94,22 @@ input::placeholder {
 .footer {
   line-height: 2.5;
   color: #99a6b2;
+  font-size: .9em;
 }
 
-/*.contact-info {
-  margin-bottom: 18px;
-}  I dont think this code does anything----- */
-
 .newsletter {
+  display: flex;
   border-top: 2px solid black;
-  margin-top: 10px
+  margin-top: 12px;
 }
 
 .flex {
   display: flex;
+  margin-top: 10px;
+}
+
+.checkbox {
+  background-color: #f2f2f2;
 }
 
 textarea {
@@ -109,6 +117,7 @@ textarea {
   background-color: #f2f2f2;
   border: none;
   border-radius: 5px;
+  font-size: .8em;
 }
 
 button {
@@ -118,6 +127,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  border-radius: 5px;
   background-color: #2eb8b8;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -125,4 +135,49 @@ button {
 
 .footer {
   font-style: italic;
+}
+
+@media (min-width: 768px){
+  main {
+    width: 75%;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2,
+  legend {
+    font-size: 1.5rem;
+  }
+
+  .flex {
+    display: flex;
+    line-height: 2;
+  }
+
+  .contact_input {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: auto;
+  }
+
+  #zipcode {
+    flex-basis: 50%;
+    margin-right: 35%;
+  }
+
+  .flex label{
+    flex-basis: 30%;
+    align-items: center;
+  }
+
+  .flex {
+    margin-top: 20px;
+  }
 }
