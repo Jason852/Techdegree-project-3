@@ -98,13 +98,11 @@ input::placeholder {
 }
 
 .newsletter {
-  display: flex;
   border-top: 2px solid black;
   margin-top: 12px;
 }
 
 .flex {
-  display: flex;
   margin-top: 10px;
 }
 
@@ -154,7 +152,6 @@ button {
   }
 
   .flex {
-    display: flex;
     line-height: 2;
   }
 
