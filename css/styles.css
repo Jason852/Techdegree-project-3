@@ -161,15 +161,21 @@ button {
   .contact_input {
     display: flex;
     flex-direction: row;
-    flex: 100%;
-    align-items: flex-end;
-    justify-content: space-around;
-    margin-top: auto;
+    align-items: center;
+    margin-top: 10px auto;
+  }
+
+  .contact_input label {
+    flex-basis: 25%;
+  }
+
+  .contact_input input,
+  .contact-info select {
+    flex-basis: 70%;
   }
 
   #zipcode {
-    flex-basis: 50%;
-    margin-right: 35%;
+    max-width: 25%;
   }
 
   .flex label{
