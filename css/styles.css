@@ -81,6 +81,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus {
   background-color: white;
+  transition: background-color 1s;
 }
 
 input::placeholder {
