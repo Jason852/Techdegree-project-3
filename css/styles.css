@@ -98,9 +98,17 @@ input::placeholder {
   font-size: .9em;
 }
 
+.contact-info {
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+}
+
 .newsletter {
-  border-top: 2px solid black;
-  margin-top: 12px;
+  margin-top: 22px;
+}
+
+.newsletter legend {
+  margin-top: auto;
 }
 
 .flex {
